@@ -7,7 +7,6 @@ package Homework5.Task2;
 //        e.	Create class instances and calculate their squares.
 //
 
-public interface Shape
-{
-    public double getSquare();
+public interface Shape {
+    double getSquare();
 }

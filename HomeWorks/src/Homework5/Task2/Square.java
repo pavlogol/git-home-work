@@ -1,15 +1,17 @@
 package Homework5.Task2;
 
-public class Square extends Round {
+public class Square extends Rectangular {
+
     private double a;
 
-    public Square(double side) {
-        this.a = side;
+    public Square(double a) {
+        this.a = a;
     }
 
+    @Override
     public double getSquare() {
-        this.square = a * a;
-        return this.square;
+        double square = a * a;
+        return square;
     }
 }
 
